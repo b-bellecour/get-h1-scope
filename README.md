@@ -3,7 +3,7 @@ Sure! Below is the complete `README.md` file with all the text included in Markd
 ### README.md
 
 
-# HackerOne Scope Fetcher
+# Get HackerOne Scope
 
 This script fetches and organizes scope information from HackerOne public and enrolled private programs.
 
