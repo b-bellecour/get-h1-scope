@@ -2,7 +2,7 @@ Sure! Below is the complete `README.md` file with all the text included in Markd
 
 ### README.md
 
-```markdown
+
 # HackerOne Scope Fetcher
 
 This script fetches and organizes scope information from HackerOne public and enrolled private programs.
@@ -21,7 +21,7 @@ To fetch the scope for private programs you are enrolled in:
 
 ```sh
 ./get-h1-scope.py -p
-```
+
 
 The output will be saved under:
 ```
