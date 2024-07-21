@@ -104,14 +104,6 @@ When using a program handle, the input should be the program name as it appears 
     source ~/.bashrc
     ```
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
 ## License
 
 This project is licensed under the MIT License.
@@ -120,6 +112,3 @@ This project is licensed under the MIT License.
 
 Baptiste Bellecour.
 
-```
-
-This `README.md` file includes all necessary information, from installation to usage, contributing, and author details, ensuring clarity and completeness for users of your `get-h1-scope.py` script. If you need further modifications or additions, feel free to let me know!
