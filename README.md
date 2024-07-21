@@ -21,9 +21,10 @@ To fetch the scope for private programs you are enrolled in:
 
 ```
 ./get-h1-scope.py -p
-
+```
 
 The output will be saved under:
+```
 /home/<system_username>/bugBounty/private-bugbounty/<scope_name>/<scope_name>-scope.txt
 ```
 
