@@ -11,7 +11,7 @@ This script fetches and organizes scope information from HackerOne public and en
 
 The `get-h1-scope.py` script helps you fetch scope URLs from HackerOne programs and save them in an organized manner. You can use it to fetch scopes from both public programs (by specifying the program handle) and private programs you are enrolled in.
 
-- thanks to @sw33tLie for the cool bbscope tool!
+- Big thanks to sw33tLie for the cool [bbscope](https://github.com/sw33tLie/bbscope) tool!
 
 ## Usage
 
