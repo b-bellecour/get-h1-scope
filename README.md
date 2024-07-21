@@ -19,12 +19,11 @@ The `get-h1-scope.py` script helps you fetch scope URLs from HackerOne programs 
 
 To fetch the scope for private programs you are enrolled in:
 
-```sh
+```
 ./get-h1-scope.py -p
 
 
 The output will be saved under:
-```
 /home/<system_username>/bugBounty/private-bugbounty/<scope_name>/<scope_name>-scope.txt
 ```
 
@@ -32,7 +31,7 @@ The output will be saved under:
 
 To fetch the scope for a public program, provide the program handle as an argument:
 
-```sh
+```
 ./get-h1-scope.py netflix
 ```
 
@@ -45,7 +44,7 @@ When using a program handle, the input should be the program name as it appears 
 
 ### Example Usage
 
-```sh
+```
 ./get-h1-scope.py -p
 (Fetch the private program scope you are enrolled in)
 
@@ -57,7 +56,7 @@ When using a program handle, the input should be the program name as it appears 
 
 1. **Clone the repository:**
 
-    ```sh
+    ```
     git clone https://github.com/<your-username>/<your-repository>.git
     cd <your-repository>
     ```
@@ -71,14 +70,14 @@ When using a program handle, the input should be the program name as it appears 
 
     Add the following lines to your `.bashrc` or `.bash_profile`:
 
-    ```sh
+    ```
     export H1_API_USERNAME="<your_hackerone_username>"
     export H1_API_TOKEN="<your_hackerone_api_token>"
     ```
 
     Apply the changes:
 
-    ```sh
+    ```
     source ~/.bashrc
     ```
 
@@ -88,19 +87,19 @@ When using a program handle, the input should be the program name as it appears 
 
     - Install `bbscope`:
 
-    ```sh
+    ```
     GO111MODULE=on go install -v github.com/sw33tLie/bbscope@latest
     ```
 
     - Ensure `bbscope` is in your PATH. Add the following to your `.bashrc` or `.bash_profile`:
 
-    ```sh
+    ```
     export PATH=$PATH:$(go env GOPATH)/bin
     ```
 
     Apply the changes:
 
-    ```sh
+    ```
     source ~/.bashrc
     ```
 
