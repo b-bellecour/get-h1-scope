@@ -166,8 +166,8 @@ def main():
         else:
             print("No URLs found or an error occurred.")
 
-    # Execute the sync script (optional)
-    subprocess.run([f'/home/{system_username}/automation/sync_bug_bounty.sh'])
+    # Execute the sync script (optional, he is an a example on how to fire a script that will sync the results on your favorite cloud)
+    # subprocess.run([f'/home/{system_username}/automation/sync_bug_bounty.sh'])
 
 if __name__ == "__main__":
     main()
